@@ -1,0 +1,70 @@
+p{
+    font-family: Montserrat;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .Title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 280px;
+    line-height: 24px;
+  }
+
+  .title-stats{
+    color: grey;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-family: Arial;
+    font-size: 14px;
+  }
+
+  .Author-title{
+    color: grey;
+    font-family: Arial;
+    margin-top: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+
+  .span-author:hover{
+    text-decoration: underline;
+  }
+  .New{
+    color: red;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .MacBook{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 9px;
+  }
+
+  .super{
+    font-size: 37px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 13px;
+  }
+
+  .From1999{
+    color: rgb(110, 106, 106);
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .Buy{
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 30px;
+    width: 50px;
+    text-align: center;
+    background-color: rgb(104, 174, 198);
+  }
