@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>flex</title>
+    <link rel="stylesheet" href="cssfiles/flexbox.css">
   </head>
   <body>
     <div style="
@@ -55,21 +56,29 @@
       <div style="background-color: lightpink;">item2</div>
     </div>
 
-    <div style="
-    display: flex;
-    flex-direction: column;
-    height: 90px;
-    padding-left: 10px;
-    padding-top: 5px ;
-    padding-bottom: 9px;
-    margin-top: 20px;
-    justify-content:space-around;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border: 1px solid grey;
-    ">
-      <div>Home</div>
-      <div>Notifications</div>
-      <div>Messages</div>
+    <div class="contenedor">
+      <div class="flexbox">
+        <div>Home</div>
+        <div class="style-notif"> 15 </div>
+      </div>
+      <div class="flexbox">
+        <div>Notificaciones</div>
+        <div class="style-notif"> 3 </div>
+      </div>
+      <div class="flexbox">
+        <div>Messages</div>
+        <div class="style-notif"> 5 </div>  
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="home">Home</div>
+      <div class="search">
+        <input class="search-bar" type="text" placeholder="Search">
+      </div>
+      <div class="download-butt">
+        <button class="download">Download</button>
+      </div>
     </div>
 
 
